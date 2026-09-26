@@ -1,2 +1,16 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+// Create an empty array for the substrings
+// Loop through each character in the string
+//    Use the current position as the starting point
+//  Loop from the starting point to the end of the string
+//    Create the consecutive substring
+//    Add to the array
+// Return the array
+
+// Solution:
+
+// The function finds every consecutive substring in the input string. The outer loop chooses the starting position of each substring. The inner loop chooses the ending position. The slice() method creates the substring between both points, then each substring is added to an array. Lastly, the array is returned. 
+
+// Time complexity: O(n^2) - the function uses a nested loop, as the length increases the number of possible substrings grows quadratically.
